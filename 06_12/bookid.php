@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 51c9bc8 (recoded 2)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +15,6 @@
         GetBook($id,$connect);
     ?>
 </body>
-<<<<<<< HEAD
 
 </html>
 
@@ -43,6 +39,3 @@ catch (Exception $e) {
 }
 
 ?>
-=======
-</html>
->>>>>>> 51c9bc8 (recoded 2)
