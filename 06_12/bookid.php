@@ -14,4 +14,8 @@
         GetBook($id,$connect);
     ?>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 06d6a87 (created bookid.php)
