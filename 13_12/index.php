@@ -4,10 +4,7 @@
     <title>Parking Management App</title>
     <style>
         <
-        style type
-
-        =
-        "text/css"
+        style type = "text/css"
         >
         .main {
             margin: 40px;
@@ -42,7 +39,7 @@
             border: 2px solid #D0A2F7;
             float: right;
             width: 35%;
-            background-color: #E5D4FF;
+            background-color:rgb(135, 89, 204);
         }
 
         h2 {
@@ -89,7 +86,7 @@
 </head>
 <body>
 <?php
-require_once 'conf/conf.php';
+require_once 'conf.php';
 require_once 'func/func.php';
 $e1=false; $e2=false; $e3=false; $e4=false;
 ?>
