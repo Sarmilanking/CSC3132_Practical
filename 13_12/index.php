@@ -3,7 +3,7 @@
 
     <title>Parking Management App</title>
     <style>
-        <
+        < 
         style  type = " text/css "
         >
         .main {
@@ -82,6 +82,7 @@
             padding: 5px;
             margin: 10px;
         }
+        </style>
     </style>
 </head>
 <body>
