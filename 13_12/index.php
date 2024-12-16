@@ -4,7 +4,7 @@
     <title>Parking Management App</title>
     <style>
         <
-        style type = "text/css"
+        style  type = " text/css "
         >
         .main {
             margin: 40px;
@@ -39,7 +39,7 @@
             border: 2px solid #D0A2F7;
             float: right;
             width: 35%;
-            background-color:rgb(135, 89, 204);
+            background-color: #E5D4FF;
         }
 
         h2 {
@@ -71,7 +71,7 @@
 
         .error {
             padding: 5px;
-            color: #D8000C;
+            color:rgb(194, 74, 80);
             background-color: #FFBABA;
             line-height: 25px;
         }
