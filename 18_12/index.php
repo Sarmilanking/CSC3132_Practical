@@ -1,20 +1,15 @@
-<?php
-require_once 'dbconfig.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-try {
+    <a href="getTable.php">Gettable</a><br>
+    <a href="prinTtable.php">printtable</a><br>
 
-	$sql = "SELECT * FROM students";
-
-	$result = mysqli_query($connect,$sql);
-	if (mysqli_num_rows($result)>0) {
-		while ($row = mysqli_fetch_assoc($result)) {
-			print_r($row);
-		}
-	} else {
-		echo "No results";
-	}
-	
-} catch (Exception $e) {
-	die($e->getMessage());
-}
-?>
+    
+</body>
+</html>
